@@ -135,4 +135,10 @@ def face_search(search=str):
 
 def map_search(search=str):
     wb.open(f'https://www.google.com/maps/place/{search}')
+def describe(object):
+        import pandas as pd
+        sc = pd.Series(object)
+        desc = sc.describe()
+        return desc
+
 
