@@ -113,7 +113,7 @@ def factors(number,upto=100):
             pass
     print(a)
 
-class whatsmsg():
+class whatsmsg:
    def whats_personal(number=str,message=str,hour=int,min=int):
         pw.sendwhats_image(number,message,hour,min)
 
